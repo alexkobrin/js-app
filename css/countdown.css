@@ -1,0 +1,101 @@
+/* Global styles */
+
+html {
+    box-sizing: border-box;
+    min-width: 320px;
+     
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    font-style: 400;
+    
+    font-family: 'Lobster Two', cursive;
+    overflow-x: hidden;
+   background-image: url('../images/countdown/countdown.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+     background-position: center ,center;
+
+   
+     
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: #000;
+    text-transform: none;
+
+}
+
+/*  main style */
+
+.coundown {
+    text-align: center;
+    max-width: 100%;
+    margin-top: 30vh;
+    color: #eee;
+    font-weight: 700;
+    font-size: 70px;
+    }
+
+.countdown__time{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.coundown__box + .coundown__box {
+    margin-left: 50px;
+     
+}
+.coundown__box .text {
+   font-size: 2rem;
+   color: #fff;
+   text-align: center;
+
+    
+}
+
+.days__time,
+.hours__time,
+.minutes__time,
+.seconds__time {
+    display: block;
+    color: #fff;
+    font-size: 6.25rem;
+    
+}
+.seconds__time {
+    color: #ee5486 ;
+}
