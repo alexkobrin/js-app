@@ -19,6 +19,7 @@ const getDownCaseletters = () => {
     return lettersDown[Math.floor(Math.random () * lettersDown.length )]
 } 
 const getSymbol = () => {
+     
     return symbol[Math.floor(Math.random () * symbol.length )]
 } 
 const getNumber = () => {
@@ -32,6 +33,7 @@ const getNumber = () => {
  for ( let i=0; i<len; i++) {
      const x = generateX();
     password +=x
+    
 
  }
  passText.innerHTML = password
@@ -56,7 +58,7 @@ const getNumber = () => {
     if(xs.length === 0) return "";
 
     return xs[Math.floor(Math.random() * xs.length)]
-
+ 
     
  }
   
@@ -74,9 +76,8 @@ const getNumber = () => {
       
  }  )
  
-  
+ 
                         
 
  genBtnEl.addEventListener('click' , generPass)
- 
  
