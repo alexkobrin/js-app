@@ -76,7 +76,10 @@ a {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
+.title-app_inner li {
+    width: 25%;
+    margin-bottom: 30px;
+}
 .title-app_inner a {
     color: #fff;
 }
