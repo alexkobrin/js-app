@@ -1,6 +1,9 @@
 .DS_Store
 node_modules
+image-plagin/dist
 /dist
+
+image-plagin/.cache
 
 
 # local env files
